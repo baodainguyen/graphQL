@@ -1,7 +1,10 @@
 # graphQL
 pratice dotnet an graphql
-### Tag: V1.6_
+### Tag: V1.6_AddGraphQLVoyager-ParallelQueries
 1. add GraphQLVoyager from method Configure in Startup.cs
+2. parallel queries (replace AddDbContext to AddPooledDbContextFactory) in Startup.cs
+3. add UseDbContext in Query class at GraphQL.cs
+
 
 
 ### Tag: v1.5_MockDb-RunProject
