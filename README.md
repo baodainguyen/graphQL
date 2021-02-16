@@ -1,6 +1,6 @@
 # graphQL
 pratice dotnet an graphql
-### Tag: v1.5_MockDb-
+### Tag: v1.5_MockDb-RunProject
 1. Create fake Data in Database (use InsertIntoTable-Platforms.sql file)
 2. run project use command
     ```
