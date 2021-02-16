@@ -1,5 +1,9 @@
 # graphQL
 pratice dotnet an graphql
+### Tag: v1.5_MockDb-
+1. Create fake Data in Database (use InsertIntoTable-Platforms.sql file)
+2. 
+
 ### Tag: v1.4_Query-MapGraphQL
 1. Add Query class (in GraphQL.cs file)
 2. Add service (GraphQLServer, QueryType) from method ConfigureServices in Startup.cs
