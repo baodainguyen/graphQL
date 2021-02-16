@@ -24,7 +24,7 @@ pratice dotnet an graphql
     ``` 
     dotnet ef database update
     ```
-    after run command below
+    Image below after run command ef database update
     ![db update](https://raw.githubusercontent.com/baodainguyen/graphQL/master/imgs/dotnetEfDatabaseUpdate.png)
     
 
