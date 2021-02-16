@@ -1,5 +1,11 @@
 # graphQL
 pratice dotnet an graphql
+### Tag: v1.4_Query
+1. Add Query class (in GraphQL.cs file)
+2. Add service (GraphQLServer, QueryType) from method ConfigureServices in Startup.cs
+3. 
+
+
 ### Tag: v1.3_MigrateWithSqlServer
 **Use in VS Code's TERMINAL**
 1. Check/install EntityFramework (EF):
