@@ -14,7 +14,7 @@ pratice dotnet an graphql
         ```
         dotnet ef database update
         ```
-3. Add UseProjection anotation into Query in GraphQL.cs
+3. Add UseProjection annotation into Query in GraphQL.cs
 4. AddProjections service into ConfigureServices in Startup.cs
 
 
