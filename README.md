@@ -5,7 +5,7 @@ pratice dotnet an graphql
 2. parallel queries (replace AddDbContext to AddPooledDbContextFactory) in Startup.cs
 3. add UseDbContext in Query class at GraphQL.cs
 4. Replace Service to ScopedService in Query class at GraphQL.cs
-
+    ![query parallel](https://raw.githubusercontent.com/baodainguyen/graphQL/master/imgs/queryParallel.png)
 
 
 ### Tag: v1.5_MockDb-RunProject
