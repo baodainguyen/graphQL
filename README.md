@@ -1,9 +1,9 @@
 # graphQL
 pratice dotnet an graphql
-### Tag: v1.4_Query
+### Tag: v1.4_Query-MapGraphQL
 1. Add Query class (in GraphQL.cs file)
 2. Add service (GraphQLServer, QueryType) from method ConfigureServices in Startup.cs
-3. Update UseEndpoints with MapGraphQL
+3. Update UseEndpoints with MapGraphQL from method Configure in Startup.cs
 
 
 ### Tag: v1.3_MigrateWithSqlServer
