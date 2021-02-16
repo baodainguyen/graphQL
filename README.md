@@ -16,6 +16,8 @@ pratice dotnet an graphql
         ```
 3. Add UseProjection annotation into Query in GraphQL.cs
 4. AddProjections service into ConfigureServices in Startup.cs
+    run project ``` dotnet run ``` and query in example
+    ![query commands](https://raw.githubusercontent.com/baodainguyen/graphQL/master/imgs/graphQlNested.png)
 
 
 ### Tag: v1.6_AddGraphQLVoyager-ParallelQueries
