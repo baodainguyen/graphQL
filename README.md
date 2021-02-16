@@ -1,9 +1,17 @@
 # graphQL
 pratice dotnet an graphql
+### Tag: v2.1_UpdateQuery-AddDescriptionInGraphVoyager
+1. Add GetCommand method in Query class of GraphQL.cs
+2. Add GraphQLDescription in Platform class of Models.cs
+
+    *dotnet run* and type on browser: http://localhost:5000/graphql-voyager
+    ![query commands](https://raw.githubusercontent.com/baodainguyen/graphQL/master/imgs/graphqlVoyagerDescription.png)
+
 ### Tag: v2.0_UpdateEFWithCommand-Migration
 1. Update Entity
     * Add Command class in Models.cs
     * Add List Command in Platform
+    * Add UseProjection annotation into Query in GraphQL.cs
 2. Update DbContext
     1. override OnModelCreating in AppDbContext in Data.cs
     2. run command to migrate with DB
@@ -14,8 +22,7 @@ pratice dotnet an graphql
         ```
         dotnet ef database update
         ```
-3. Add UseProjection annotation into Query in GraphQL.cs
-4. AddProjections service into ConfigureServices in Startup.cs
+3. AddProjections service into ConfigureServices in Startup.cs
     run project ``` dotnet run ``` and query in example
     ![query commands](https://raw.githubusercontent.com/baodainguyen/graphQL/master/imgs/graphQlNested.png)
 
