@@ -2,7 +2,13 @@
 pratice dotnet an graphql
 ### Tag: v1.5_MockDb-
 1. Create fake Data in Database (use InsertIntoTable-Platforms.sql file)
-2. 
+2. run project use command
+    ```
+    dotnet build
+    dotnet run
+    ```
+    type: *localhost:5000/graphql* in Browser and press Excute button (at top right) 
+    ![db update](https://raw.githubusercontent.com/baodainguyen/graphQL/master/imgs/test001.png)
 
 ### Tag: v1.4_Query-MapGraphQL
 1. Add Query class (in GraphQL.cs file)
