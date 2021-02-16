@@ -25,7 +25,7 @@ pratice dotnet an graphql
     dotnet ef database update
     ```
     after run command below
-    ![db update](https://github.com/baodainguyen/graphQL/imgs/dotnetEfDatabaseUpdate.png)
+    ![db update](https://raw.githubusercontent.com/baodainguyen/graphQL/master/imgs/dotnetEfDatabaseUpdate.png)
     
 
 ### Tag: v1.2_Add-Dependency-EF-DB-ConnectionString
