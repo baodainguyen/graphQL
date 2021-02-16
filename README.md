@@ -1,9 +1,19 @@
 # graphQL
 pratice dotnet an graphql
-### Tag: v2.0_UpdateEF-AddCommand
+### Tag: v2.0_UpdateEFWithCommand-Migration
 1. Update Entity
     * Add Command class in Models.cs
     * Add List Command in Platform
+2. Update DbContext
+    1. override OnModelCreating in AppDbContext in Data.cs
+    2. run command to migrate with DB
+        ```
+        dotnet ef migrations add AddCommandToDb
+        ```
+    3. run command to update in Database
+        ```
+        dotnet ef database update
+        ```
 
 
 ### Tag: v1.6_AddGraphQLVoyager-ParallelQueries
