@@ -1,10 +1,18 @@
 # graphQL
 pratice dotnet an graphql
+### Tag: v2.0_UpdateEF-AddCommand
+1. Update Entity
+    * Add Command class in Models.cs
+    * Add List Command in Platform
+
+
 ### Tag: v1.6_AddGraphQLVoyager-ParallelQueries
 1. add GraphQLVoyager from method Configure in Startup.cs
-2. parallel queries (replace AddDbContext to AddPooledDbContextFactory) in Startup.cs
-3. add UseDbContext in Query class at GraphQL.cs
-4. Replace Service to ScopedService in Query class at GraphQL.cs
+    * type on browser: http://localhost:5000/graphql-voyager/
+2. parallel queries 
+    * (replace AddDbContext to AddPooledDbContextFactory) in Startup.cs
+    * add UseDbContext in Query class at GraphQL.cs
+    * Replace Service to ScopedService in Query class at GraphQL.cs
     ![query parallel](https://raw.githubusercontent.com/baodainguyen/graphQL/master/imgs/queryParallel.png)
 
 
