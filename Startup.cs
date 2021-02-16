@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using GraphQL.Data;
 using GraphQL.Queries;
+using GraphQL.Server.Ui.Voyager;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -46,6 +47,12 @@ namespace GraphQL
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGraphQL();
+            });
+
+            app.UseGraphQLVoyager(new GraphQLVoyagerOptions()
+            {
+                GraphQLEndPoint = "/graphql",
+                Path = "/graphql-voyager"
             });
         }
     }

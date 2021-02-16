@@ -1,5 +1,9 @@
 # graphQL
 pratice dotnet an graphql
+### Tag: V1.6_
+1. add GraphQLVoyager from method Configure in Startup.cs
+
+
 ### Tag: v1.5_MockDb-RunProject
 1. Create fake Data in Database (use InsertIntoTable-Platforms.sql file)
 2. run project use command
