@@ -4,6 +4,7 @@ pratice dotnet an graphql
 1. add GraphQLVoyager from method Configure in Startup.cs
 2. parallel queries (replace AddDbContext to AddPooledDbContextFactory) in Startup.cs
 3. add UseDbContext in Query class at GraphQL.cs
+4. Replace Service to ScopedService in Query class at GraphQL.cs
 
 
 
