@@ -14,6 +14,8 @@ pratice dotnet an graphql
         ```
         dotnet ef database update
         ```
+3. Add UseProjection anotation into Query in GraphQL.cs
+4. AddProjections service into ConfigureServices in Startup.cs
 
 
 ### Tag: v1.6_AddGraphQLVoyager-ParallelQueries

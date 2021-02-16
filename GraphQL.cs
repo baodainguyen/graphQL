@@ -9,6 +9,7 @@ namespace GraphQL.Queries
     public class Query
     {
         [UseDbContext(typeof(AppDbContext))]
+        [UseProjection]     // use pull back any child objects
         public IQueryable<Platform> GetPlatform([ScopedService] AppDbContext context)
         {
             
