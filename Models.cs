@@ -9,11 +9,11 @@ namespace GraphQL.Models
     {
         [Key]
         public int Id { get; set; }
-        
+
+        [GraphQLDescription("Represents the name of patform, it can not be null")]
         [Required]  // can not be null
         public string Name { get; set; }
 
-        [GraphQLDescription("Represents a purchased, valid license for platform")]
         public string LicenseKey { get; set; }
 
         public ICollection<Command> Commands { get; set; } = new List<Command>();

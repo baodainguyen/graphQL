@@ -1,5 +1,13 @@
 # graphQL
 pratice dotnet an graphql
+### Tag: v2.2_Type-for-CommandAndPlatform
+1. Add PlatformType and CommandType class in GraphQL.cs
+    * Ignore LicenseKey in Configure function PlatformType
+2. Add Type of ConfigureServices method in Startup.cs
+3. Remove Projections
+    * [UseProjection] annotation in Query class from GraphQL.cs
+    * Rm AddProjections method in ConfigureServices from Startup.cs
+
 ### Tag: v2.1_UpdateQuery-AddDescriptionInGraphVoyager
 1. Add GetCommand method in Query class of GraphQL.cs
 2. Add GraphQLDescription in Platform class of Models.cs
@@ -102,3 +110,7 @@ dotnet add package GraphQL.Server.Ui.Voyager
 **Use in VS Code's TERMINAL**
 1. Create new project: ``` dotnet new web -n GraphQL -f net5.0 ```
 2. Open project: ``` code -r GraphQL ```
+
+#### Git command
+Use `git tag -a v1.0 -m 'commit tag name v1.0'` for create new tag
+Type `git push origin --tags` to push tag on git repo
