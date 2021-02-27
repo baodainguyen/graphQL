@@ -9,8 +9,10 @@ namespace GraphQL.Queries
 {
     public class Query
     {
-        [UseDbContext(typeof(AppDbContext))]
         //[UseProjection]     // use pull back any child objects
+        [UseDbContext(typeof(AppDbContext))]
+        [UseFiltering]
+        [UseSorting]
         public IQueryable<Platform> GetPlatform([ScopedService] AppDbContext context)
         {
             
@@ -18,6 +20,8 @@ namespace GraphQL.Queries
         }
 
         [UseDbContext(typeof(AppDbContext))]
+        [UseFiltering]
+        [UseSorting]
         public IQueryable<Command> GetCommand([ScopedService] AppDbContext context)
         {
 

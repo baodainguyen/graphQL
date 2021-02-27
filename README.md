@@ -1,5 +1,9 @@
 # graphQL
 pratice dotnet an graphql
+### Tag: v2.3_Filter-Sort
+* Add [UseFiltering] and [UseSorting] in Query class of GraphQL.cs
+* AddFiltering and Sorting service in ConfigureServices of Startup.cs
+
 ### Tag: v2.2_Type-for-CommandAndPlatform
 1. Add PlatformType and CommandType class in GraphQL.cs
     * Ignore LicenseKey in Configure function PlatformType
@@ -111,6 +115,6 @@ dotnet add package GraphQL.Server.Ui.Voyager
 1. Create new project: ``` dotnet new web -n GraphQL -f net5.0 ```
 2. Open project: ``` code -r GraphQL ```
 
-#### Git command
-Use `git tag -a v1.0 -m 'commit tag name v1.0'` for create new tag
-Type `git push origin --tags` to push tag on git repo
+# Git command
+1. Use `git tag -a v1.0_NameOf-Tag -m 'commit tag name v1.0'` for create new tag
+2. Type `git push origin --tags` to push tag on git's repo
