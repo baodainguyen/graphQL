@@ -1,6 +1,14 @@
 # graphQL
 pratice dotnet an graphql
-### Tag: v3.0_Mutation
+### Tag: v3.1_Subscription
+1. add class Subscription in Queries.cs
+2. In Startup.cs
+    * UseWebSockets in Configure method from Startup.cs
+    * AddSubscriptionType, AddInMemorySubscriptions in ConfigureServices from Startup.cs
+3. in Mutation from Queries.cs
+    * add params ITopicEventSender, CancellationToken in AddPlatformAsync method
+
+### Tag: v3.0_Mutation-from-API
 1. add class Mutation in Queries.cs
 2. add records
     * in Command.cs (AddCommandPayload, AddCommandInput)
