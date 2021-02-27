@@ -1,5 +1,12 @@
 # graphQL
 pratice dotnet an graphql
+### Tag: v3.0_Mutation
+1. add class Mutation in Queries.cs
+2. add records
+    * in Command.cs (AddCommandPayload, AddCommandInput)
+    * in Platform.cs (AddPlatformPayload, AddPlatformInput)
+3. add service AddMutationType in ConfigureServices from Startup.cs
+
 ### Tag: v2.3_Filter-Sort
 * Add [UseFiltering] and [UseSorting] in Query class of GraphQL.cs
 * AddFiltering and Sorting service in ConfigureServices of Startup.cs
