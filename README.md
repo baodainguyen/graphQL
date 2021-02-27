@@ -133,3 +133,7 @@ dotnet add package GraphQL.Server.Ui.Voyager
 # Git command
 1. Use `git tag -a v1.0_NameOf-Tag -m 'commit tag name v1.0'` for create new tag
 2. Type `git push origin --tags` to push tag on git's repo
+
+# Credit and Ref
+Thanks for tutorial: (Les Jackson channel)
+    https://www.youtube.com/watch?reload=9&v=HuN94qNwQmM
